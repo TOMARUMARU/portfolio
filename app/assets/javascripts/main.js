@@ -51,6 +51,8 @@
           url: url,
           data: $(this).serialize(),
           success: function(data) {
+            console.log(data);
+            console.log(data.contact.id);
             if (data.contact.id) {
               var alertBox =
                 '<div class="alert ' +
@@ -58,7 +60,6 @@
                 ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' +
                 "お問い合わせありがとうございます。返信をお待ちください。" +
                 "</div>";
-              $("#contact-form")[0].reset();
             } else {
               var alertBox =
                 '<div class="alert ' +
