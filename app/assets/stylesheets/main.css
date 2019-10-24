@@ -1347,15 +1347,18 @@ ul.social-links li:last-child a {
 }
 /*Skill 9*/
 .skill-percentage.skill-9 {
-  width: 70%;
+  width: 88%;
 }
 /*Skill 10*/
 .skill-percentage.skill-10 {
-  width: 40%;
+  width: 70%;
 }
 /*Skill 11*/
 .skill-percentage.skill-11 {
-  width: 88%;
+  width: 40%;
+}
+.skill-percentage.skill-12 {
+  width: 70%;
 }
 /* Skills */
 
